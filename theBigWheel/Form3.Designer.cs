@@ -45,12 +45,12 @@
             // btnMostrar
             // 
             btnMostrar.FlatStyle = FlatStyle.Flat;
-            btnMostrar.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnMostrar.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             btnMostrar.ForeColor = Color.FromArgb(0, 151, 178);
-            btnMostrar.Location = new Point(754, 443);
+            btnMostrar.Location = new Point(453, 444);
             btnMostrar.Margin = new Padding(3, 2, 3, 2);
             btnMostrar.Name = "btnMostrar";
-            btnMostrar.Size = new Size(131, 56);
+            btnMostrar.Size = new Size(300, 115);
             btnMostrar.TabIndex = 2;
             btnMostrar.Text = "MOSTRAR";
             btnMostrar.UseVisualStyleBackColor = true;
@@ -58,12 +58,12 @@
             // btnAgregar
             // 
             btnAgregar.FlatStyle = FlatStyle.Flat;
-            btnAgregar.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnAgregar.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             btnAgregar.ForeColor = Color.FromArgb(0, 151, 178);
-            btnAgregar.Location = new Point(907, 443);
+            btnAgregar.Location = new Point(809, 444);
             btnAgregar.Margin = new Padding(3, 2, 3, 2);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(131, 56);
+            btnAgregar.Size = new Size(300, 115);
             btnAgregar.TabIndex = 3;
             btnAgregar.Text = "AGREGAR";
             btnAgregar.UseVisualStyleBackColor = true;
@@ -71,12 +71,12 @@
             // btnActualizar
             // 
             btnActualizar.FlatStyle = FlatStyle.Flat;
-            btnActualizar.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnActualizar.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             btnActualizar.ForeColor = Color.FromArgb(0, 151, 178);
-            btnActualizar.Location = new Point(1061, 443);
+            btnActualizar.Location = new Point(1167, 444);
             btnActualizar.Margin = new Padding(3, 2, 3, 2);
             btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(131, 56);
+            btnActualizar.Size = new Size(300, 115);
             btnActualizar.TabIndex = 4;
             btnActualizar.Text = "ACTUALIZAR";
             btnActualizar.UseVisualStyleBackColor = true;
@@ -84,11 +84,11 @@
             // lblTitulo
             // 
             lblTitulo.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            lblTitulo.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
+            lblTitulo.Font = new Font("Segoe UI", 48F, FontStyle.Bold);
             lblTitulo.ForeColor = Color.Black;
-            lblTitulo.Location = new Point(-12, 320);
+            lblTitulo.Location = new Point(-12, 276);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(1480, 38);
+            lblTitulo.Size = new Size(1480, 82);
             lblTitulo.TabIndex = 1;
             lblTitulo.Text = "Stock";
             lblTitulo.TextAlign = ContentAlignment.MiddleCenter;
