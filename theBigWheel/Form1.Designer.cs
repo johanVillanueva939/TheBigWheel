@@ -30,7 +30,7 @@
             btnConfiguracion.FlatAppearance.BorderSize = 2;
             btnConfiguracion.FlatStyle = FlatStyle.Flat;
             btnConfiguracion.ForeColor = Color.FromArgb(0, 151, 178);
-            btnConfiguracion.Location = new Point(121, 266);
+            btnConfiguracion.Location = new Point(560, 496);
             btnConfiguracion.Margin = new Padding(6, 7, 6, 7);
             btnConfiguracion.Name = "btnConfiguracion";
             btnConfiguracion.Size = new Size(300, 115);
@@ -47,7 +47,7 @@
             btnCatalogo.FlatAppearance.BorderSize = 3;
             btnCatalogo.FlatStyle = FlatStyle.Flat;
             btnCatalogo.ForeColor = Color.FromArgb(0, 151, 178);
-            btnCatalogo.Location = new Point(613, 266);
+            btnCatalogo.Location = new Point(1052, 496);
             btnCatalogo.Margin = new Padding(6, 7, 6, 7);
             btnCatalogo.Name = "btnCatalogo";
             btnCatalogo.RightToLeft = RightToLeft.No;
@@ -60,18 +60,18 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Black", 72F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(84, 25);
+            label1.Location = new Point(592, 257);
             label1.Name = "label1";
-            label1.Size = new Size(918, 159);
+            label1.Size = new Size(738, 128);
             label1.TabIndex = 2;
             label1.Text = "The Big Wheel";
             label1.Click += label1_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(16F, 37F);
+            AutoScaleDimensions = new SizeF(13F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1090, 544);
+            ClientSize = new Size(1382, 814);
             Controls.Add(label1);
             Controls.Add(btnCatalogo);
             Controls.Add(btnConfiguracion);
@@ -79,6 +79,7 @@
             Margin = new Padding(6, 7, 6, 7);
             Name = "Form1";
             Text = "Vista Principal";
+            WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

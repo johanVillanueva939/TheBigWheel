@@ -33,9 +33,10 @@
             btnAtras.FlatStyle = FlatStyle.Flat;
             btnAtras.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btnAtras.ForeColor = Color.White;
-            btnAtras.Location = new Point(20, 20);
+            btnAtras.Location = new Point(18, 15);
+            btnAtras.Margin = new Padding(3, 2, 3, 2);
             btnAtras.Name = "btnAtras";
-            btnAtras.Size = new Size(120, 50);
+            btnAtras.Size = new Size(105, 38);
             btnAtras.TabIndex = 0;
             btnAtras.Text = "ATRÁS";
             btnAtras.UseVisualStyleBackColor = false;
@@ -46,9 +47,10 @@
             btnStock.FlatStyle = FlatStyle.Flat;
             btnStock.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btnStock.ForeColor = Color.FromArgb(0, 151, 178);
-            btnStock.Location = new Point(150, 250);
+            btnStock.Location = new Point(763, 488);
+            btnStock.Margin = new Padding(3, 2, 3, 2);
             btnStock.Name = "btnStock";
-            btnStock.Size = new Size(150, 75);
+            btnStock.Size = new Size(131, 56);
             btnStock.TabIndex = 2;
             btnStock.Text = "STOCK";
             btnStock.Click += btnStock_Click;
@@ -58,9 +60,10 @@
             btnEmpleado.FlatStyle = FlatStyle.Flat;
             btnEmpleado.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btnEmpleado.ForeColor = Color.FromArgb(0, 151, 178);
-            btnEmpleado.Location = new Point(325, 250);
+            btnEmpleado.Location = new Point(916, 488);
+            btnEmpleado.Margin = new Padding(3, 2, 3, 2);
             btnEmpleado.Name = "btnEmpleado";
-            btnEmpleado.Size = new Size(150, 75);
+            btnEmpleado.Size = new Size(131, 56);
             btnEmpleado.TabIndex = 3;
             btnEmpleado.Text = "EMPLEADO";
             // 
@@ -69,9 +72,10 @@
             btnFacturas.FlatStyle = FlatStyle.Flat;
             btnFacturas.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btnFacturas.ForeColor = Color.FromArgb(0, 151, 178);
-            btnFacturas.Location = new Point(500, 250);
+            btnFacturas.Location = new Point(1070, 488);
+            btnFacturas.Margin = new Padding(3, 2, 3, 2);
             btnFacturas.Name = "btnFacturas";
-            btnFacturas.Size = new Size(150, 75);
+            btnFacturas.Size = new Size(131, 56);
             btnFacturas.TabIndex = 4;
             btnFacturas.Text = "FACTURAS";
             // 
@@ -80,25 +84,27 @@
             lblTitulo.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblTitulo.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             lblTitulo.ForeColor = Color.Black;
-            lblTitulo.Location = new Point(0, 100);
+            lblTitulo.Location = new Point(-36, 331);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(800, 50);
+            lblTitulo.Size = new Size(1485, 67);
             lblTitulo.TabIndex = 1;
             lblTitulo.Text = "Configuración";
             lblTitulo.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1478, 824);
             Controls.Add(btnAtras);
             Controls.Add(lblTitulo);
             Controls.Add(btnStock);
             Controls.Add(btnEmpleado);
             Controls.Add(btnFacturas);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form2";
             Text = "Configuración";
+            WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
         }
     }
