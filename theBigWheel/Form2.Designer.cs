@@ -47,7 +47,7 @@
             btnStock.FlatStyle = FlatStyle.Flat;
             btnStock.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             btnStock.ForeColor = Color.FromArgb(0, 151, 178);
-            btnStock.Location = new Point(403, 488);
+            btnStock.Location = new Point(475, 486);
             btnStock.Margin = new Padding(3, 2, 3, 2);
             btnStock.Name = "btnStock";
             btnStock.Size = new Size(300, 115);
@@ -60,7 +60,7 @@
             btnEmpleado.FlatStyle = FlatStyle.Flat;
             btnEmpleado.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             btnEmpleado.ForeColor = Color.FromArgb(0, 151, 178);
-            btnEmpleado.Location = new Point(739, 488);
+            btnEmpleado.Location = new Point(811, 486);
             btnEmpleado.Margin = new Padding(3, 2, 3, 2);
             btnEmpleado.Name = "btnEmpleado";
             btnEmpleado.Size = new Size(300, 115);
@@ -72,7 +72,7 @@
             btnFacturas.FlatStyle = FlatStyle.Flat;
             btnFacturas.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             btnFacturas.ForeColor = Color.FromArgb(0, 151, 178);
-            btnFacturas.Location = new Point(1070, 488);
+            btnFacturas.Location = new Point(1142, 486);
             btnFacturas.Margin = new Padding(3, 2, 3, 2);
             btnFacturas.Name = "btnFacturas";
             btnFacturas.Size = new Size(300, 115);
